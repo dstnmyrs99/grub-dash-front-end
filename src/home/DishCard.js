@@ -10,7 +10,7 @@ function DishCard({ dish, children }) {
           alt={`${dish.name} interior`}
         />
         <div className="card-body">
-          <h5 className="card-title text-truncate">{dish.name}</h5>
+          <h5 className="card-title ">{dish.name}</h5>
           <p className="card-text">{dish.description}</p>
           <p className="card-text">$ {dish.price}</p>
         </div>
