@@ -1,5 +1,5 @@
 import React from "react";
-import headerImage from "./header.jpg";
+import headerImage from "./unnamed.jpg";
 
 const style = {
   background: `linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.7)), url(${headerImage})`,
@@ -11,9 +11,9 @@ function Header() {
   return (
     <div className="jumbotron jumbotron-fluid text-white mb-0" style={style}>
       <div className="container">
-        <h1 className="display-1">GrubDash</h1>
+        <h1 className="display-1">Bobbies Bakery</h1>
         <p className="lead">
-          The best restaurants near you deliver with <em>GrubDash</em>!
+          The best shit delivered <em>to you</em>!
         </p>
       </div>
     </div>
